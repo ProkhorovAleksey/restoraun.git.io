@@ -289,8 +289,9 @@ color: #000;
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 52px;
-    text-align: center;
+    text-align: left;
     margin-top: 80px;
+    margin-left: 141px;
     width: 628px;
 }
 .order-desk {
@@ -322,4 +323,38 @@ color: #000;
 
 .order-btn:hover {
     background-color:#7c4212;
+}
+
+.food-title {
+    text-align: center;
+    margin-top: 132px;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+}
+
+.food-title span {
+    color:#D67E35;
+}
+
+.burgers {
+    display: flex;
+    margin-top: 143px;
+    margin-left: 143px;
+}
+.burgers-image {
+    margin-right: 40px;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.burger-text {
+    color: #000000;
+    font-family: 'Tinos', serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 40px;
 }
