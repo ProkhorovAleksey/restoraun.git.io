@@ -256,28 +256,8 @@ color: #000;
 }
 .images-1 {
     position: absolute;
-    z-index: 99;
-    top: -39px;
-    left: -780px;
-}
-.images-2 {
-    position: absolute;
-    z-index: 98;
-    top: -60px;
-    right: 368px;
-}
-.images-3 {
-    position: absolute;
-    z-index: 99;
-    top: 143px;
-    right: 217px;
-}
-.images-4 {
-    position: absolute;
-    z-index: 50;
-    top: -17px;
-    right: 286px;
-
+    right: 175px;
+    top: -100px;
 }
 
 .order {
@@ -408,10 +388,10 @@ color: #000;
     justify-content: center;
     padding-top: 31px;
     position: relative;
+    background-size: 20px;
 }
 
 .bar-img {
-    border-radius: 50%;
 }
 .bar-title1 {
     font-family: 'Tinos', serif;
@@ -507,4 +487,154 @@ color: #000;
     position: absolute;
     top: 163px;
     left: 185px;
+}
+
+
+
+.review-header {
+    background-color: #E5E5E5;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.review-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 902px;
+    height: 52px;
+    justify-content: center;
+    padding-top: 104px;
+    padding-left: 350px;
+}
+.review-img {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.man-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.man-desk {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.man-ell1 {
+    justify-content: center;
+    
+}
+
+.footer {
+    background-color: black;
+    padding: 50px 0px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (max-width:1300px) {
+    .bar-holder {
+        display: block;
+
+    
+    }
+    .card1 {
+        margin: 20px auto;
+    }
+    .header-title {
+        position: static;
+        margin-top: 152px;
+    }
+    .header-suptitle::after,
+    .header-suptitle::before
+    {
+        content: none;
+    }
+    .order-holder {
+        display: block;
+    }
+    .order-header,
+    .order-desk {
+        margin: 0px auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .order-desk {
+        padding-top: 0px;
+    }
+    .order-btn {
+        text-align: center;
+        margin-top: 60px;
+        margin-right: 202px;
+        
+    }
+    .history-images {
+         display: none;
+    }
+
+    .history-title,
+    .history-desk,
+    .history-number {
+        width: auto;
+    }
+    .order,
+    .order-image {
+        width: 1416px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .burger-menu {
+        display: block;
+    }
+    .nav,
+    .cart,
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header-line {
+        justify-content: space-between;
+    }
+    .burgers-image {
+        display: none;
+    }
+    .header {
+        width: 1425px;
+ 
+    }
+    .card-holder {
+        display: block;
+        justify-content: center;
+        margin-left: 334px;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    .bar-holder {
+        width: auto;
+    }
+    .card1 {
+        width: auto;
+    }
 }
